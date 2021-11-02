@@ -1,10 +1,20 @@
 .main-nav {
+  display: flex;
   margin-left: auto;
+
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-left: 60px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
 
-ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  list-style: none;
- }
+
