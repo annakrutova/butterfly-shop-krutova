@@ -1,0 +1,19 @@
+.header {
+  padding: 25px 0;
+  background-color: $color-dark;
+
+}
+
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: $Font-open;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
