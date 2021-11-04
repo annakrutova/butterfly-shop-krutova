@@ -1,0 +1,32 @@
+.products-inner {
+  padding: 130px 506px;
+  background-color: #e5e5e5;
+}
+
+.products-title h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  text-align: center;
+
+}
+
+.products-photos {
+  display: flex;
+  padding: 97px 82px 120px;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 30px 48px;
+  background-color: $color-red;
+  font-family: inherit;
+  color: $text-color;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 42px;
+  line-height: 57px;
+  border: none;
+  display: block;
+}

@@ -1,12 +1,11 @@
-.header-inner {
+.footer-inner {
   padding: 16px 82px;
   background-color: $color-dark;
 }
 
-.header-wrap {
+.footer-wrap {
   display: flex;
   align-items: center;
-
 }
 
 .logo {
@@ -18,4 +17,13 @@
   color: $text-color;
   text-decoration: none;
   list-style: none;
+}
+
+.phone {
+  font-family: $font-open;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-decoration: none;
+  color: $text-color;
 }
