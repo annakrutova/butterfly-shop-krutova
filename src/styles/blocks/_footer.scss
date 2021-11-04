@@ -27,3 +27,14 @@
   text-decoration: none;
   color: $text-color;
 }
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-item {
+  list-style: none;
+}
+
+
