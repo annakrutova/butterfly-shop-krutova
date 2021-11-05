@@ -1,0 +1,27 @@
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social-item {
+  list-style: none;
+}
+
+.social-link {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+  display: block;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+  text-decoration: none;
+  background-size: contain;
+  background-position: center;
+}
+
+.social-text {
+  font-size: 1px;
+  opacity: 0;
+}
+

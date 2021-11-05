@@ -21,6 +21,15 @@
       background-color: $color-red;
     }
   }
+  a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: $font-open;
+    color: $text-color;
+
+  }
 }
 
 

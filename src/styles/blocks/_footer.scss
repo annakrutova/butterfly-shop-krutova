@@ -1,5 +1,5 @@
 .footer-inner {
-  padding: 16px 82px;
+  padding: 31px 82px;
   background-color: $color-dark;
 }
 
@@ -17,6 +17,7 @@
   color: $text-color;
   text-decoration: none;
   list-style: none;
+  margin-right: auto;
 }
 
 .phone {
@@ -26,15 +27,7 @@
   line-height: 38px;
   text-decoration: none;
   color: $text-color;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-}
-
-.social-item {
-  list-style: none;
+  text-align: center;
 }
 
 
