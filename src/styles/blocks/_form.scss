@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 33%;
+  margin-right: 33%;
+}
+
+.form-filed {
+  flex-basis: 100%;
+  margin-top: 20px;
+  padding: 0 33%;
+}
+
+.form-label {
+  display: inline-block;
+  margin-left: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 27px;
+}
+

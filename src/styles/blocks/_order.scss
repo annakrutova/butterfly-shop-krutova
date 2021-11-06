@@ -1,0 +1,27 @@
+.order {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  background-color: rgba (51, 51, 51, .01);
+}
+
+.order-title {
+  font-family: $font-open;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+}
+
+.order-subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.order-form {
+  width: 100%;
+  margin-left: 0 auto;
+}
