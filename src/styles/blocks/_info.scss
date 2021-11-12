@@ -1,5 +1,6 @@
 .info-inner {
-  padding: 0;
+  margin: 0 auto;
+  width: 1024;
   background: url(/butterfly-shop-krutova/images/info.jpg);
   background-size: cover;
   background-position: center;
@@ -8,11 +9,17 @@
 
 .info-wrap {
   display: flex;
-  padding: 200px 82px 418px;
+  align-items: center;
+}
+
+.info-content {
+  padding: 235px 82px 418px;
 }
 
 .info-title {
   font-family: $font-open;
+  padding-top: 200px;
+  margin: 0;
   font-style: normal;
   font-weight: 600;
   font-size: 72px;
