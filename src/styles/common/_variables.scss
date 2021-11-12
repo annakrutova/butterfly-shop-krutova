@@ -12,3 +12,11 @@ $text-color: #FFFFFF;
 
 $font-open: 'Open Sans', Arial, "Helvetica Neue", Helvetica, sans-serif;
 
+// / Breakpoints
+
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
+
+$df-tablet: $desktop - 1;
+$df-mobile: $tablet - 1;

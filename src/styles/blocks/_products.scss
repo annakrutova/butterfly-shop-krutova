@@ -16,31 +16,35 @@ h2 {
   text-align: center;
 }
 
+
 .products-photos-wrap {
-  position: relative;
-  list-style: none;
+
   display: flex;
+  list-style: none;
   justify-content: space-between;
   padding-bottom: 97px;
+}
+
+
+.products-item-bg {
+  position: relative;
+  flex-basis: 25%;
+  height: 304px;
+  background-repeat: no-repeat;
 }
 
 .products-desc {
   position: absolute;
   left: 0;
   bottom: 0;
+  border-right: 0;
+  width: 100%;
   margin: 0;
   padding: 10px;
   text-align: center;
   color: #fff;
   background-color: rgba($color-dark, .5);
 }
-
-.products-item-bg {
-  flex-basis: 25%;
-  height: 304px;
-  background-repeat: no-repeat;
-}
-
 
 
 
