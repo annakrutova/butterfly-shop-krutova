@@ -3,15 +3,17 @@
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 130px;
+  margin-left: 82px;
+  margin-right: 82px;
 
-  .form-half {
-  width: 33.33%;
+
+  .field-half {
+    flex-basis: 33.33%;
 }
 
 label {
   display: inline-block;
-  margin-left: 82px;
-  margin-bottom: 130px;
+  margin-bottom: 8px;
   font-size: 20px;
   line-height: 27px;
 }
