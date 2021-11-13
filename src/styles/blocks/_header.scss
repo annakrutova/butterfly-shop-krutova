@@ -9,6 +9,14 @@
 .header-inner {
   padding: 0px 82px;
   background-color: $color-dark;
+
+  @media (max-width: $df-tablet) {
+    padding-left: 10px;
+  }
+
+  @media (max-width: $df-mobile) {
+    padding-left: 16px;
+  }
 }
 
 .header-wrap {
@@ -25,4 +33,5 @@
   color: $text-color;
   text-decoration: none;
   list-style: none;
+
 }

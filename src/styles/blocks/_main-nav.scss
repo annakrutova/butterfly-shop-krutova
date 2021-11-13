@@ -2,12 +2,20 @@
   display: flex;
   margin-left: auto;
 
+  @media (max-width: $df-mobile) {
+    display: none;;
+  }
+
 
   ul {
     display: flex;
     margin: 0;
     padding: 0 auto;
     list-style: none;
+
+    @media (max-width: $df-tablet) {
+      padding-left: 147px;
+    }
   }
 
   li {
