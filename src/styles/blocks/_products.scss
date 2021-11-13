@@ -14,6 +14,18 @@ h2 {
   font-size: 64px;
   font-weight: 87px;
   text-align: center;
+
+  @media (max-width: $df-tablet) {
+    padding-top: 120px;
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+  @media (max-width: $df-mobile) {
+    padding-top: 90px;
+    font-size: 36px;
+    line-height: 49px;
+  }
 }
 
 

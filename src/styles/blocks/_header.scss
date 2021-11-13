@@ -11,10 +11,12 @@
   background-color: $color-dark;
 
   @media (max-width: $df-tablet) {
+    width: auto;
     padding-left: 10px;
   }
 
   @media (max-width: $df-mobile) {
+    width: auto;
     padding-left: 16px;
   }
 }

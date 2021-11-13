@@ -13,6 +13,10 @@
   line-height: 57px;
   border: none;
   display: block;
+
+  @media (max-width: $df-mobile) {
+    margin-top: 100px;
+  }
 }
 
 btn-order {
