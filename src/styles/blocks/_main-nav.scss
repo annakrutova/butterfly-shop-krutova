@@ -1,42 +1,45 @@
 .main-nav {
-  display: flex;
-  margin-left: auto;
-
-  @media (max-width: $df-mobile) {
-    display: none;;
-  }
-
-
-  ul {
     display: flex;
-    margin: 0;
-    padding: 0 auto;
-    list-style: none;
+    margin-left: auto;
 
-    @media (max-width: $df-tablet) {
-      padding-left: 147px;
+    @media (max-width: $df-mobile) {
+      display: none;;
     }
-  }
 
-  li {
-    font-family: $font-open;
-    margin-left: 60px;
-    padding: 33px 25px;
-    text-decoration: none;
-    &:first-child {
-      border: none;
+
+    ul {
+      display: flex;
       margin: 0;
-      padding-bottom: 40px;
+      padding: 0 auto;
+      list-style: none;
+
+      @media (max-width: $df-tablet) {
+        padding-left: 147px;
+      }
+    }
+
+    li {
+      margin: 0;
+      font-family: $font-open;
+      margin-left: 60px;
+      padding: 33px 25px;
+
+      text-decoration: none;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 24px;
+      text-decoration: none;
+      font-family: $font-open;
+      color: $text-color;
+
+    }
+
+    a:hover {
       background-color: $color-red;
     }
   }
-  a {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: none;
-    font-family: $font-open;
-    color: $text-color;
 
-  }
-}

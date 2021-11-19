@@ -1,21 +1,19 @@
 
 .form {
   display: flex;
-  flex-wrap: wrap;
-  padding-bottom: 130px;
+  align-items: flex-end;
   margin-left: 82px;
-  margin-right: 82px;
-
-
-  .field-half {
-    flex-basis: 33.33%;
+  padding-bottom: 130px;
 }
+  .field-half {
+  width: 100%;
+
+  flex-basis: 33.33%;
 
 label {
-  display: inline-block;
-  margin-bottom: 8px;
   font-size: 20px;
   line-height: 27px;
+  margin-bottom: 8px;
 }
 
 input {
