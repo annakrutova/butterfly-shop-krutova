@@ -1,0 +1,31 @@
+.faq {
+  padding-top: 220px;
+  padding-bottom: 160px;
+  background-color: $text-color;
+
+}
+
+.faq-inner {
+  width: 1278px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.faq-title {
+  font-family: $font-open;
+  font-size: 64px;
+  line-height: 87px;
+  font-weight: normal;
+  color: $color-dark;
+  text-align: center;
+}
+
+.faq-list {
+  margin-top: 77px;
+}
+
+.faq-item {
+  margin-top: 40px;
+  border-radius: 4px;
+  background-color: $text-color;
+}
