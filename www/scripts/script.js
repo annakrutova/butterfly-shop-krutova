@@ -1,13 +1,61 @@
-console.log('script work!');
+$(document).ready(function(){
 
-$('.contacts-tab-link').on('click', function (e) {
-  e.preventDefault();
+// contacts
 
-  let index = $(this).index('.contacts-tab-link');
+  $('.contacts-tab-link').on('click', function (e) {
+    e.preventDefault();
 
-  $('.contacts-tab-link').removeClass('active');
-  $(this).addClass('active');
+    let index = $(this).index('.contacts-tab-link');
 
-  $('.contacts-content').removeClass('active');
-  $('.contacts-content').eq(index).addClass('active');
+    $('.contacts-tab-link').removeClass('active');
+    $(this).addClass('active');
+
+    $('.contacts-content').removeClass('active');
+    $('.contacts-content').eq(index).addClass('active');
+  });
+
+
+// filter
+
+  $('.filter-link').on('click', function (e) {
+    e.preventDefault();
+
+    let linkType = $(this).data('type');
+
+    $('.filter-link').removeClass('active');
+    $(this).addClass('active');
+
+    if (linkType === 'all') {
+      $('.portfolio-item').show();
+      return;
+    }
+
+    $('.portfolio-item').each(function () {
+      let portfolioType = $(this).data('type');
+
+      if (linkType === portfolioType) {
+        $(this).show();
+        return;
+      }
+
+      $(this).hide();
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
