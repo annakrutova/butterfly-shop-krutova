@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 130px 0;
+  padding: 220px 0;
   text-align: center;
 }
 
@@ -11,6 +11,16 @@
   font-weight: normal;
   font-size: 64px;
   line-height: 87px;
+
+  @media (max-width: $df-tablet) {
+    font-size: 60px;
+    line-height: 82px;
+  }
+
+    @media (max-width: $df-mobile) {
+      font-size: 36px;
+      line-height: 49px;
+  }
 }
 
 .filter {
@@ -45,7 +55,7 @@
 
 .portfolio-item {
   flex-basis: 25%;
-
+  padding: 10px;
 }
 
 .portfolio-item-wrap {
@@ -55,8 +65,6 @@
 
 .portfolio-item-inner {
   position: absolute;
-  padding-right: 20px;
-  padding-bottom: 20px;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -74,10 +82,11 @@
 }
 
 .portfolio-desc {
+  position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
   padding: 16px 48px;
+  width: 100%;
   font-family: $font-open;
   color: $text-color;
   font-weight: normal;

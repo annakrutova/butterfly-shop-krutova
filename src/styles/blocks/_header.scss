@@ -11,13 +11,11 @@
   background-color: $color-dark;
 
   @media (max-width: $df-tablet) {
-    width: auto;
-    padding-left: 10px;
+    padding: 0 10px;
   }
 
   @media (max-width: $df-mobile) {
-    width: auto;
-    padding-left: 16px;
+    padding: 0 16px;
   }
 }
 
@@ -39,4 +37,16 @@
   list-style: none;
   border: none;
 
+  @media (max-width: $df-tablet) {
+    padding: 10px 0;
+    font-size: 36px;
+    line-height: 49px;
+  }
+
+
+  @media (max-width: $df-mobile) {
+    padding: 16px 0;
+    font-size: 28px;
+    line-height: 38px;
+  }
 }

@@ -15,6 +15,16 @@ font-size: 64px;
 line-height: 87px;
 text-align: center;
 color: $color-dark;
+
+  @media (max-width: $df-tablet) {
+    font-size: 60px;
+    line-height: 82px;
+}
+
+  @media (max-width: $df-mobile) {
+    font-size: 36px;
+    line-height: 49px;
+}
 }
 
 .contacts-tabs {
