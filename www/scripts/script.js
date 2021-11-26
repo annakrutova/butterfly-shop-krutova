@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+    $('.burger').on('click', function () {
+    $(this).toggleClass('open');
+    $('.main-nav').slideToggle();
+  });
+
 // contacts
 
   $('.contacts-tab-link').on('click', function (e) {
