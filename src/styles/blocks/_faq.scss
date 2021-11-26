@@ -30,3 +30,37 @@
   background-color: $text-color;
 }
 
+.faq-button {
+  position: relative;
+  width: 100%;
+  padding: 25px 70px 25px 30px;
+  text-align: left;
+  font-family: $font-open;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  color: $color-dark;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+
+  &.open {
+    .faq-button-icon:before {
+      transform: scale(0);
+    }
+  }
+}
+
+.faq-content {
+  font-family: $font-open;
+  padding: 0 30px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+
+  p{
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
