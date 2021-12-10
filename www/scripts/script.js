@@ -47,6 +47,10 @@ $(document).ready(function () {
     });
   });
 
+  // slick
+
+
+  $('.single-item').slick();
 
 
 
