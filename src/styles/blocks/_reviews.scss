@@ -15,3 +15,16 @@
   line-height: 87px;
   text-align: center;
 }
+
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 77px;
+  margin-left: 298px;
+  margin-right: 298px;
+}
+
+.reviews-item {
+  flex-basis: 100%;
+  margin-bottom: 164px;
+}
